@@ -6,7 +6,8 @@
   "scripts": {
     "build:frontend": "cd ../frontend && npm install && npm run build",
     "deploy": "npm run build:frontend && wrangler deploy",
-    "dev": "wrangler dev"
+    "dev": "wrangler dev",
+    "setup:secrets": "echo 首次部署前请依次执行以下命令设置密钥: && echo   npx wrangler secret put ACCESS_CODE && echo   npx wrangler secret put TURNSTILE_SECRET_KEY"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240620.0",

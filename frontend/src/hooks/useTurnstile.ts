@@ -19,7 +19,7 @@ declare global {
   }
 }
 
-const TURNSTILE_SITE_KEY = '0x4AAAAAADVWOePrkWv_vDrrSeo_MG7PiA4';
+const TURNSTILE_SITE_KEY = '0x4AAAAAADVWOfZ_ZQMCjDQO';
 
 export function useTurnstile() {
   const setShowTurnstile = useAppStore((s) => s.setShowTurnstile);
