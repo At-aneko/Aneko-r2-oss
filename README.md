@@ -2,6 +2,8 @@
 
 基于 Cloudflare Workers 的轻量级 R2 对象存储文件管理界面。
 
+**演示站点：[https://disk.aneko.ink/](https://disk.aneko.ink/)**
+
 ## 技术栈
 
 - **前端**：React 18 + TypeScript + Vite + Tailwind CSS
